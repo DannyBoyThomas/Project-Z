@@ -1,0 +1,15 @@
+Zombie
+Sight,Smell,Hearing
+Zombie attacking can alert nearby zombies through sound(mumbling)
+
+todo growing crowd over mumbling zombies means large noises equals more zombies
+
+in world sound
+
+store last 10 zombie sounds
+
+find average of locations
+
+run for loop to remove any not in range of centre, 
+
+add volums of remaining noises
