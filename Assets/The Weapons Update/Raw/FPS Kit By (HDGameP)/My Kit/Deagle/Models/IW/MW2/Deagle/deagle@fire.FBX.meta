@@ -97,7 +97,7 @@ ModelImporter:
     400088: SphereGizmo01
     400090: SphereGizmo02
     400092: Trigger
-    7400000: Take 001
+    7400000: fire
     9500000: //RootNode
     11100000: //RootNode
   materials:
@@ -114,13 +114,135 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 0
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: fire
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dummy01
+        weight: 1
+      - path: Dummy01/Bone01
+        weight: 1
+      - path: Dummy01/Bone01/Bone02
+        weight: 1
+      - path: Dummy02
+        weight: 1
+      - path: Dummy02/Bone49
+        weight: 1
+      - path: Dummy02/Bone49/Bone50
+        weight: 1
+      - path: muzzy
+        weight: 1
+      - path: SphereGizmo01
+        weight: 1
+      - path: SphereGizmo01/Bone04
+        weight: 1
+      - path: SphereGizmo01/Bone04/Bone06
+        weight: 1
+      - path: SphereGizmo01/Bone04/Bone06/Bone07
+        weight: 1
+      - path: SphereGizmo01/Bone04/Bone06/Bone07/Bone08
+        weight: 1
+      - path: SphereGizmo01/Bone04/Bone10
+        weight: 1
+      - path: SphereGizmo01/Bone04/Bone10/Bone11
+        weight: 1
+      - path: SphereGizmo01/Bone04/Bone10/Bone11/Bone12
+        weight: 1
+      - path: SphereGizmo01/Bone04/Bone14
+        weight: 1
+      - path: SphereGizmo01/Bone04/Bone14/Bone15
+        weight: 1
+      - path: SphereGizmo01/Bone04/Bone14/Bone15/Bone16
+        weight: 1
+      - path: SphereGizmo01/Bone04/Bone18
+        weight: 1
+      - path: SphereGizmo01/Bone04/Bone18/Bone19
+        weight: 1
+      - path: SphereGizmo01/Bone04/Bone18/Bone19/Bone20
+        weight: 1
+      - path: SphereGizmo01/Bone04/Bone22
+        weight: 1
+      - path: SphereGizmo01/Bone04/Bone22/Bone23
+        weight: 1
+      - path: SphereGizmo01/Bone04/Bone22/Bone23/Bone24
+        weight: 1
+      - path: SphereGizmo01/HAMMER TIME
+        weight: 1
+      - path: SphereGizmo01/Mag
+        weight: 1
+      - path: SphereGizmo01/Object02
+        weight: 1
+      - path: SphereGizmo01/smdimport
+        weight: 1
+      - path: SphereGizmo01/SphereGizmo02
+        weight: 1
+      - path: SphereGizmo01/SphereGizmo02/Bone27
+        weight: 1
+      - path: SphereGizmo01/SphereGizmo02/Bone27/Bone29
+        weight: 1
+      - path: SphereGizmo01/SphereGizmo02/Bone27/Bone29/Bone30
+        weight: 1
+      - path: SphereGizmo01/SphereGizmo02/Bone27/Bone29/Bone30/Bone31
+        weight: 1
+      - path: SphereGizmo01/SphereGizmo02/Bone27/Bone33
+        weight: 1
+      - path: SphereGizmo01/SphereGizmo02/Bone27/Bone33/Bone34
+        weight: 1
+      - path: SphereGizmo01/SphereGizmo02/Bone27/Bone33/Bone34/Bone35
+        weight: 1
+      - path: SphereGizmo01/SphereGizmo02/Bone27/Bone37
+        weight: 1
+      - path: SphereGizmo01/SphereGizmo02/Bone27/Bone37/Bone38
+        weight: 1
+      - path: SphereGizmo01/SphereGizmo02/Bone27/Bone37/Bone38/Bone26
+        weight: 1
+      - path: SphereGizmo01/SphereGizmo02/Bone27/Bone41
+        weight: 1
+      - path: SphereGizmo01/SphereGizmo02/Bone27/Bone41/Bone42
+        weight: 1
+      - path: SphereGizmo01/SphereGizmo02/Bone27/Bone41/Bone42/Bone43
+        weight: 1
+      - path: SphereGizmo01/SphereGizmo02/Bone27/Bone45
+        weight: 1
+      - path: SphereGizmo01/SphereGizmo02/Bone27/Bone45/Bone46
+        weight: 1
+      - path: SphereGizmo01/SphereGizmo02/Bone27/Bone45/Bone46/Bone47
+        weight: 1
+      - path: SphereGizmo01/Trigger
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -158,7 +280,7 @@ ModelImporter:
     rootMotionBoneName: 
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 1
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

@@ -142,19 +142,26 @@ ModelImporter:
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
-      - time: 0.5347222
+      - time: 0.40310344
         functionName: PlayReloadSFX
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 1
         messageOptions: 0
-      - time: 0.7391493
+      - time: 0.4456546
         functionName: PlayReloadSFX
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 2
+        messageOptions: 0
+      - time: 0.6915521
+        functionName: PlayReloadSFX
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 3
         messageOptions: 0
       transformMask:
       - path: 
