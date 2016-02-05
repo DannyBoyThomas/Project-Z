@@ -1,0 +1,2 @@
+item_HealthKit="Kit de santé";
+item_TestItem="Test Item";

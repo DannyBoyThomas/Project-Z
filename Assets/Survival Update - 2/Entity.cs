@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+[System.Serializable]
 public class Entity : MonoBehaviour {
 
     public string name = "Bob";
@@ -8,8 +9,7 @@ public class Entity : MonoBehaviour {
     public int maxHealth = 100;
     public int baseDamageDealt = 10;
 
-    
-	public virtual void Start () 
+    public virtual void Start () 
     {
         
 	}
